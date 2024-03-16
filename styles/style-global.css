@@ -1,0 +1,16 @@
+@import url('header.css');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    color: #f0f8ff;
+    font-family: monospace;
+}
+
+:root{
+    --color-primairy: #171c2d;
+    --color-text: #f5f5db;
+}
