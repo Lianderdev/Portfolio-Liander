@@ -92,6 +92,7 @@
 
 @media screen and (max-width: 487px){
     .home{
+        height: 110vh;
         display: flex;
         flex-direction: column;
         padding: 20px 8%;
@@ -114,10 +115,11 @@
 
     .home .img-content{
         width: 100%;
-        height: 800px;
+        height: 1200px;
         position: relative;
         display: flex;
         flex-direction: column;
+
     }
 
     .home .img-content span{
