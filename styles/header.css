@@ -34,32 +34,6 @@ header{
     letter-spacing: 2px;
 }
 
-.menu-navegacao .icons a i{
-    font-size: 1.7rem;
-    padding: 0 10px;
-    transition: 0.5s;
-}
-
-.fa-brands.fa-github:hover{
-    transform: translateY(-2px);
-}
-
-.fa-brands.fa-linkedin-in:hover{
-    color: #0e76a8;
-    transform: translateY(-2px);
-}
-
-.fa-brands.fa-whatsapp:hover{
-    color: #25d366;
-    transform: translateY(-2px);
-}
-
-.fa-regular.fa-envelope:hover{
-    color: #ea4355;
-    transform: translateY(-2px);
-}
-
-
 .menu-mobile{
     background-color: var(--color-primairy);
     border: none;
@@ -74,7 +48,7 @@ header{
 }
 
 @media screen and (max-width: 1000px){
-    .menu-navegacao ul li a, .icons a{
+    .menu-navegacao ul li a{
         display: none;
     }
    
