@@ -1,0 +1,11 @@
+.about-education {
+    display: flex;
+    padding: 0px;
+}
+
+@media screen and (max-width: 980px){
+    .about-education {
+        flex-direction: column;
+        gap: 40px;
+    }
+}
