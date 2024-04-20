@@ -63,7 +63,7 @@ header .info-content ul li a i {
     align-items: center;
     justify-content: center;
 
-    background-color: #090523;
+    background-color: rgb(28, 23, 55)
     
 }
 
@@ -148,5 +148,9 @@ header .menu-nav li a:hover::after {
 @media screen and (max-width: 540px) {
     header {
         min-width: 420px;
+    }
+
+    .fa-solid.fa-bars {
+        display: none;
     }
 }

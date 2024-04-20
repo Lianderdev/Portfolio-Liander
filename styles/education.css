@@ -9,13 +9,13 @@
 }
 
 #education .formacoes-content {
-    height: 160px;
     display: flex;
-    gap: 40px;
+    gap: 20px;
 }
 
 #education .formacoes-content .formacao {
 
+    height: 150px;
     display: flex;
     flex-direction: column;
     gap: 5px;
@@ -35,7 +35,7 @@
 }
 
     #education .formacoes-content .formacao .faculdade {
-        font-size: 1.6rem;
+        font-size: 1.8rem;
         text-transform: uppercase;
         color: green;
     }
@@ -57,7 +57,7 @@
     height: 50px;
     border-radius: 50%;
     padding: 5px;
-    background-color: aliceblue;
+    background-color: var(--text-color);
 
     position: absolute;
     bottom: 15px;
@@ -65,14 +65,43 @@
 
 }
 
+.botao-curriculo {
+    width: 200px;
+    height: 50px;
+    font-size: 2.0rem;
+    text-transform: uppercase;
+    font-weight: 400;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+
+    border-radius: 10px;
+
+    border: none;
+    color: var(--color-primary);
+
+    background-color: var(--title-styles);
+}
+
+.botao-curriculo i {
+    color: rgb(0, 0, 0);
+}
+
 @media screen and (max-width: 1500px){
     .formacoes-content {
+        height: 100px;
         flex-direction: column;
         gap: 20px;
     }
 
     #education .formacoes-content .formacao img {
-        bottom: 30px;
+        bottom: 25px;
+    }
+
+    .botao-curriculo {
+        margin-top: 120px;
     }
 }
 
@@ -83,7 +112,7 @@
     }
 
     #education .formacoes-content .formacao img {
-        bottom: 30px;
+        bottom: 25px;
     }
 
 
