@@ -93,15 +93,15 @@
                 <div class="img-contact">
                     <img  src="imgs/img-contact.png" alt="">
                 </div>
-                
+
                 <div class="formulario">
-                    <form action="">
+                    <form action="https://api.staticforms.xyz/submit" method="post">
                         <div class="info-pessoa">
                             <div class="informações">
                                 <label for="">Name</label>
                                 <div>
                                     <i class="fa-solid fa-circle-user"></i>
-                                    <input type="text">
+                                    <input type="text" name="name" placeholder="Digite seu nome">
                                 </div>
                             </div>
 
@@ -109,7 +109,7 @@
                                 <label for="">Gmail</label>
                                 <div>
                                     <i class="fa-solid fa-square-envelope"></i>
-                                    <input type="text">
+                                    <input type="text" name="email" placeholder="Digite seu email" autocomplete="off">
                                 </div>
                             </div>
                         </div>
@@ -117,11 +117,15 @@
                         <div class="info-descricao">
                             <label for="">Mensagem</label>
                             <div>
-                                <textarea name="" id="" cols="30" rows="10"></textarea>
+                                <i class="fa-solid fa-comment-dots"></i>
+                                <textarea name="message" cols="30" rows="10" placeholder="Digite sua mensagem" autocomplete="off"></textarea>
                             </div>  
                         </div>
 
-                        <button class="botao">Enviar <i class="fa-solid fa-arrow-trend-up"></i></button>
+                        <button type="submit" class="botao">Enviar <i class="fa-solid fa-arrow-trend-up"></i></button>
+
+                        <input type="hidden" name="accessKey" value="18de0799-6c30-4ad0-92b0-dc1e456837d2">
+                        <input type="hidden" name="redirectTo" value="https://portfolio-liander.vercel.app/">
                     </form>
                 </div>  
             </div>
