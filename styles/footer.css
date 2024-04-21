@@ -1,0 +1,42 @@
+footer {
+    min-width: 450px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 0 10%;
+}
+
+.geral {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0px 40px 0px ;
+}
+
+.geral h2{
+    font-size: 3.0rem;
+}
+
+.redes-socias-footer {
+    width: 100%;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    border-top: 1px solid var(--text-gray);
+    padding: 20px 0px 40px 0px ;
+}
+
+.redes-socias-footer p {
+    font-size: 1.6rem;
+}
+
+@media screen and (max-width: 800px) {
+    footer {
+        padding: 20px;
+    }
+}

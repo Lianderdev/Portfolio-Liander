@@ -5,7 +5,7 @@ header {
     justify-content: space-between;
     align-items: center;
 
-    padding: 0 10%;
+    padding: 0 10%; 
 }
 
 header .perfil {
@@ -44,90 +44,6 @@ header .perfil .info-content h2 {
     color: var(--text-gray);
 }
 
-header .perfil .info-content ul {
-    display: flex;
-    gap: 20px;
-}
-
-header .perfil .info-content li {
-    transition: .3s ease-out;
-} 
-
-header .info-content ul li a i {
-    font-size: 20px;
-    border-radius: 10px;
-    width: 40px;
-    height: 40px;
-
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
-    background-color: rgb(28, 23, 55)
-    
-}
-
-header .info-content ul li:hover {
-    transform: translateY(-3px);
-}
-
-.fa-brands.fa-linkedin-in:hover {
-    background-color: #0e76a8;
-}
-
-.fa-brands.fa-whatsapp:hover {
-    background-color: #25d366;
-}
- 
-.fa-brands.fa-github-alt:hover {
-    background-color: rgb(13, 17, 23);
-}
-
-.fa-regular.fa-envelope:hover {
-    background-color: #ea4355;
-}
-
-.fa-brands.fa-instagram:hover {
-        background: linear-gradient(45deg, #405DE6, #5851DB, #833AB4, #C13584, #E1306C, #FD1D1D, #F56040, #FCAF45, #FFDC80);
-}
-
-header .info-content ul li a .rede{
-    display: none;
-}
-
-header .menu-nav {
-    display: flex;
-    gap: 30px;
-}
-
-header .menu-nav li {
-    padding: 10px 20px;
-}
-
-
-header .menu-nav li a {
-    font-size: 1.3rem;
-}
-
-header .menu-nav li a::after {
-    content: "";
-    display: block;
-    width: 10px;
-    height: 2px;
-    border-radius: 3px;
-    background-color: #218bfc;
-    transition: .5s ease-out;
-}
-
-header .menu-nav li a:hover::after {
-    width: 100%;
-}
-
-.fa-solid.fa-bars {
-    display: none;
-    font-size: 40px;
-}
-
 /*Responsividade*/
 @media screen and (max-width: 1140px) {
     .menu-nav li {
@@ -141,7 +57,7 @@ header .menu-nav li a:hover::after {
 
 @media screen and (max-width: 800px) {
     header {
-        padding: 15px;
+        padding: 20px;
     }
 }
 

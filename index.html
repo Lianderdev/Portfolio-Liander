@@ -13,25 +13,23 @@
     <header>
         <div class="perfil">
             <img src="imgs/img-liander.png" alt="">
-
             <div class="info-content">
                 <h1>Liander Souza</h1>
                 <h2>Desenvolvedor Front-End</h2>
 
-                <ul>
-                        <li><a href="https://www.linkedin.com/in/liander-vin%C3%ADcius/" target="_blank"><i class="fa-brands fa-linkedin-in"></i> <span class="rede">linkedin</span></a></li>
-                        <li><a href="https://github.com/Lianderdev" target="_blank"><i class="fa-brands fa-github-alt"></i> <span class="rede">github</span></a></li>
-                        <li><a href="" target="_blank"><i class="fa-regular fa-envelope"></i> <span class="rede">gmail</span></a></li>
+                <ul class="redes-sociais">
+                    <li><a href="https://www.linkedin.com/in/liander-vin%C3%ADcius/" target="_blank"><i class="fa-brands fa-linkedin-in"></i> <span class="rede">linkedin</span></a></li>
+                    <li><a href="https://github.com/Lianderdev" target="_blank"><i class="fa-brands fa-github-alt"></i> <span class="rede">github</span></a></li>
+                    <li><a href="" target="_blank"><i class="fa-regular fa-envelope"></i> <span class="rede">gmail</span></a></li>
                 </ul>
             </div>
         </div>
 
         <ul class="menu-nav">
-            <li><a href="#about">About me</a></li>
             <li><a href="#stack">Stacks</a></li>
-            <li><a href="">Projects</a></li>
-            <li><a href="" class="ultimo">Contact</a></li>
-
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#about">About me</a></li>
+            <li><a href="#contact" class="ultimo">Contact</a></li>
             <i class="fa-solid fa-bars"></i>
         </ul>
     </header>
@@ -50,10 +48,10 @@
                 </ul>
         </section>
 
-        <!--Projects-->
-        <section id="projetos">
+        <!--Projects
+        <section id="projects">
             <h2>Projects</h2>
-        </section>
+        </section>-->
 
         <!--About me-->
         <section class="about-education">
@@ -61,7 +59,7 @@
                 <h2>About me</h2>
                 <div class="about-content">
                     <p>Olá!, Obtive meu primeiro contanto com campo da tecnologia em 2019, ao ingressar no ensino médio técnico integrado em Informática no Instituto Federal do Pará - IFPA, onde concluí minha formação em 2021. Durante este período, desenvolvi um interesse significativo pela programação, com foco particular na criação de sites dinâmicos.
-                    <p>Atualmente me encontro no 5° semestre da faculdade em Ciência da Computação na mesma instituição. Permaneço em constante busca por aprendizado visando aprimorar minhas habilidades como desenvolvedor Front-end e busco uma vaga de estagio na área.</p>
+                    <p>Atualmente me encontro no 5° semestre da faculdade em Ciência da Computação na mesma instituição. Permaneço em constante busca por aprendizado visando aprimorar minhas habilidades como desenvolvedor Front-end.</p>
                 </div>
             </section>
 
@@ -89,16 +87,69 @@
         </section>
 
         <!--Contacts-->
-
         <section id="contact">
             <h2>Contact</h2>
+            <div class="contact-content">
+                <div class="img-contact">
+                    <img  src="imgs/img-contact.png" alt="">
+                </div>
+                
+                <div class="formulario">
+                    <form action="">
+                        <div class="info-pessoa">
+                            <div class="informações">
+                                <label for="">Name</label>
+                                <div>
+                                    <i class="fa-solid fa-circle-user"></i>
+                                    <input type="text">
+                                </div>
+                            </div>
+
+                            <div class="informações">
+                                <label for="">Gmail</label>
+                                <div>
+                                    <i class="fa-solid fa-square-envelope"></i>
+                                    <input type="text">
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="info-descricao">
+                            <label for="">Mensagem</label>
+                            <div>
+                                <textarea name="" id="" cols="30" rows="10"></textarea>
+                            </div>  
+                        </div>
+
+                        <button class="botao">Enviar <i class="fa-solid fa-arrow-trend-up"></i></button>
+                    </form>
+                </div>  
+            </div>
         </section>
-
-        <footer>
-            <section><h2>Footer</h2></section>
-        </footer>
-
     </main>
+
+    <!--Footer-->
+    <footer>
+
+        <div class="geral">
+            <h2>Liander Souza</h2>
+
+
+
+        </div>
+
+
+
+        <div class="redes-socias-footer">
+            <p>liandervinicius13@gmail.com</p>
+
+            <ul class="redes-sociais">
+                <li><a href="https://www.linkedin.com/in/liander-vin%C3%ADcius/" target="_blank"><i class="fa-brands fa-linkedin-in"></i> <span class="rede">linkedin</span></a></li>
+                <li><a href="https://github.com/Lianderdev" target="_blank"><i class="fa-brands fa-github-alt"></i> <span class="rede">github</span></a></li>
+                <li><a href="" target="_blank"><i class="fa-regular fa-envelope"></i> <span class="rede">gmail</span></a></li>
+            </ul>
+        </div>
+    </footer>
 
 </body>
 </html>

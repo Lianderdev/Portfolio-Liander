@@ -1,0 +1,142 @@
+#contact {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+    margin-bottom: 40px;
+}
+
+.contact-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.formulario {
+    width: 50%;
+    height: auto;
+    border-radius: 10px;
+
+    display: flex;
+    align-items: center;
+
+    padding: 20px;
+    background-color: var(--style-box);
+}
+
+form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+form .info-pessoa {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+}
+
+form .info-pessoa .informações {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+form .info-pessoa .informações label {
+    font-size: 2.5rem;
+}
+
+form .informações  div {
+    height: 50px;
+    border-radius: 10px;
+
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 13px;
+    
+    background-color: var(--text-gray);
+}
+
+
+form .info-pessoa .informações div i {
+    font-size: 27px;
+}
+
+form .info-pessoa .informações div input {
+    width: 100%;
+    height: 50px;
+    border: none;
+
+    background-color: initial;
+    font-size: 2.0rem;
+    font-weight: 400;
+}
+
+form .info-pessoa .informações div input:focus {
+    outline: none;
+}
+
+form .info-descricao {
+    margin-top: 20px;
+    
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+form .info-descricao label {
+    font-size: 2.5rem;
+}
+
+form .info-descricao textarea {
+    width: 100%;
+    height: 150px;
+    border-radius: 10px;
+    border: none;
+    padding: 20px;
+
+    margin-bottom: 20px;
+
+    background-color: var(--text-gray);
+}
+
+form .info-descricao textarea:focus {
+    outline: none;
+}
+
+
+.img-contact {
+    width: 34%;
+    height: auto;
+    padding-left: 50px;
+}
+
+.img-contact img {
+    width: 100%;
+    object-fit: cover;
+}
+
+@media screen and (max-width: 1470px) {
+    .img-contact {
+        width: 40%;
+    }
+}
+
+@media screen and (max-width: 1170px) {
+    .formulario {
+        height: auto;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .img-contact {
+        display: none;
+    }
+
+    .formulario {
+        width: 100%;
+    }
+}
+
+
+
