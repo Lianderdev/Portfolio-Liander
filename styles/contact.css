@@ -5,12 +5,13 @@
 
     margin-bottom: 40px;
 
-    background-color: #040213;
+    background-color: var(--color-secundary);
 }
 
 .contact-content {
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 .formulario {
@@ -20,9 +21,44 @@
 
     display: flex;
     align-items: center;
+    flex-direction: column;
+    gap: 20px;
 
     padding: 20px;
+
+    background-color: #040213;
 }
+
+.formulario .title-contact {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.formulario .title-contact h3 {
+    font-size: 2.0rem;
+    font-weight: 500;
+    text-decoration:underline;
+}
+
+.formulario .title-contact i {
+    color: #5e68ff;
+    font-size: 2.0rem;
+    animation: subirDescer 1s ease-in-out infinite;
+}
+
+@keyframes subirDescer {
+    0% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-3px);
+    }
+    100% {
+
+    }
+  }
+
 
 form {
     width: 100%;
@@ -43,11 +79,11 @@ form .info-pessoa .informações {
 }
 
 form  label {
-    font-size: 2.0rem;
+    font-size: 1.5rem;
 }
 
 form .informações  div {
-    height: 50px;
+    height: 43px;
     border-radius: 10px;
 
     display: flex;
@@ -60,16 +96,17 @@ form .informações  div {
 
 
 form i {
-    font-size: 27px;
+    font-size: 20px;
+    color: #5e68ff;
 }
 
 form .info-pessoa .informações div input {
     width: 100%;
-    height: 50px;
+    height: 40px;
     border: none;
 
     background-color: initial;
-    font-size: 1.5rem;
+    font-size: 1.4rem;
     font-weight: 400;
     font-style: italic;
 }
@@ -95,16 +132,19 @@ form .info-descricao {
     padding: 13px;
 }
 
+form .info-descricao i {
+    padding-top: 2px;
+}
+
+
 form .info-descricao textarea {
     width: 100%;
-    height: 150px;
+    height: 100px;
     border: none;
     border-radius: 10px;
 
     font-size: 1.5rem;
     font-style: italic;
-
-    padding-top: 4px;
 
     background-color: var(--style-box);
 }
@@ -113,6 +153,14 @@ form .info-descricao textarea:focus {
     outline: none;
 }
 
+.botao-contact {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.botao-contact i {
+    color: white;
+}
 
 .img-contact {
     width: 34%;
@@ -135,6 +183,11 @@ form .info-descricao textarea:focus {
     .formulario {
         height: auto;
     }
+    .img-contact {
+        width: 45%;
+    }
+
+
 }
 
 @media screen and (max-width: 1000px) {
@@ -145,6 +198,24 @@ form .info-descricao textarea:focus {
     .formulario {
         width: 100%;
     }
+
+    form .informações  div {
+        height: 50px;
+    }
+
+    form .info-pessoa .informações div input {
+        font-size: 1.5rem;
+    }
+
+    
+    form  label {
+     font-size: 2.0rem;
+    }
+    
+    form .info-descricao textarea {
+        height: 150px;
+    }
+
 }
 
 

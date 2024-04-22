@@ -7,6 +7,7 @@ footer {
     align-items: center;
 
     padding: 0 10%;
+    visibility: hidden;
 }
 
 .geral {

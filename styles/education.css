@@ -32,13 +32,14 @@
     text-transform: uppercase;
     line-height: 20px;
     font-weight: 600;
+    color: var(--text-color);
 }
 
-    #education .formacoes-content .formacao .faculdade {
-        font-size: 1.8rem;
-        text-transform: uppercase;
-        color: green;
-    }
+#education .formacoes-content .formacao .faculdade {
+    font-size: 1.8rem;
+    text-transform: uppercase;
+    color: green;
+}
 
 #education .formacoes-content .formacao span {
     font-size: 1.4rem;
@@ -66,27 +67,7 @@
 }
 
 .botao-curriculo {
-    width: 200px;
-    height: 50px;
-    font-size: 2.0rem;
-    text-transform: uppercase;
-    font-weight: 400;
-
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 15px;
-
-    border-radius: 10px;
-
-    border: none;
-    color: var(--color-primary);
-
-    background-color: #5e68ff;
-}
-
-.botao-curriculo i {
-    color: rgb(0, 0, 0);
+    margin-left: 10px;
 }
 
 @media screen and (max-width: 1500px){

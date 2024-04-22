@@ -5,9 +5,11 @@ header {
     justify-content: space-between;
     align-items: center;
 
-    padding: 30px 10%; 
+    padding: 50px 10% 30px 10%; 
+    position: relative;
+    
+    background-color: var(--color-secundary)
 
-    background-color: #040213;
 }
 
 header .perfil {
@@ -43,7 +45,7 @@ header .perfil .info-content h2 {
     font-weight: 400;
     letter-spacing: 2px;
 
-    color: #5e68ff;
+    color: var( --style-pink);
 }
 
 .fa-solid.fa-bars {
