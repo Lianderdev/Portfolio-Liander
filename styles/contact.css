@@ -4,6 +4,8 @@
     gap: 20px;
 
     margin-bottom: 40px;
+
+    background-color: #040213;
 }
 
 .contact-content {
@@ -20,7 +22,6 @@
     align-items: center;
 
     padding: 20px;
-    background-color: var(--style-box);
 }
 
 form {
@@ -54,7 +55,7 @@ form .informações  div {
     gap: 10px;
     padding: 13px;
     
-    background-color: var(--text-gray);
+    background-color: var(--style-box);
 }
 
 
@@ -89,7 +90,7 @@ form .info-descricao {
     display: flex;
     gap: 10px;
     border-radius: 10px;
-    background-color: var(--text-gray);
+    background-color: var(--style-box);
     margin-bottom: 20px;
     padding: 13px;
 }
@@ -103,7 +104,9 @@ form .info-descricao textarea {
     font-size: 1.5rem;
     font-style: italic;
 
-    background-color: var(--text-gray);
+    padding-top: 4px;
+
+    background-color: var(--style-box);
 }
 
 form .info-descricao textarea:focus {

@@ -48,10 +48,10 @@
                 </ul>
         </section>
 
-        <!--Projects
+        <!--Projects-->
         <section id="projects">
             <h2>Projects</h2>
-        </section>-->
+        </section>
 
         <!--About me-->
         <section class="about-education">
@@ -98,10 +98,10 @@
                     <form action="https://api.staticforms.xyz/submit" method="post">
                         <div class="info-pessoa">
                             <div class="informações">
-                                <label for="">Name</label>
+                                <label for="">Nome</label>
                                 <div>
                                     <i class="fa-solid fa-circle-user"></i>
-                                    <input type="text" name="name" placeholder="Digite seu nome">
+                                    <input type="text" name="name" placeholder="Digite seu nome" required>
                                 </div>
                             </div>
 
@@ -109,7 +109,7 @@
                                 <label for="">Gmail</label>
                                 <div>
                                     <i class="fa-solid fa-square-envelope"></i>
-                                    <input type="text" name="email" placeholder="Digite seu email" autocomplete="off">
+                                    <input type="text" name="email" placeholder="Digite seu email" autocomplete="off" required>
                                 </div>
                             </div>
                         </div>
@@ -118,31 +118,27 @@
                             <label for="">Mensagem</label>
                             <div>
                                 <i class="fa-solid fa-comment-dots"></i>
-                                <textarea name="message" cols="30" rows="10" placeholder="Digite sua mensagem" autocomplete="off"></textarea>
+                                <textarea name="message" cols="30" rows="10" placeholder="Digite sua mensagem" autocomplete="off" required></textarea>
                             </div>  
                         </div>
 
                         <button type="submit" class="botao">Enviar <i class="fa-solid fa-arrow-trend-up"></i></button>
 
                         <input type="hidden" name="accessKey" value="18de0799-6c30-4ad0-92b0-dc1e456837d2">
-                        <input type="hidden" name="redirectTo" value="https://portfolio-liander.vercel.app/">
+                        <input type="hidden" name="redirectTo" value="https://index.html">
                     </form>
                 </div>  
             </div>
         </section>
     </main>
 
+    <!--Dialog/Mpdal
+    <dialog>
+        <button class="botao-fechar-modal"><i class="fa-solid fa-x"></i></button>
+     </dialog>-->
+
     <!--Footer-->
     <footer>
-
-        <div class="geral">
-            <h2>Liander Souza</h2>
-
-
-
-        </div>
-
-
 
         <div class="redes-socias-footer">
             <p>liandervinicius13@gmail.com</p>
@@ -155,5 +151,6 @@
         </div>
     </footer>
 
+    <script src="script.js"></script>
 </body>
 </html>
