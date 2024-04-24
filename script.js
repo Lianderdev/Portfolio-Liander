@@ -40,37 +40,37 @@ revel.reveal('#contact', {
 
 revel.reveal('footer', {
     duration: 1000, 
-    distance: '90px'
+    distance: '20px'
     //delay: 500 = meio segundo
 })
 
 revel.reveal('.visibilit-1', {
-    duration: 1000, 
-    //delay: 500 = meio segundo
+    scale: 0,
+    delay: 100
 })
 
-revel.reveal('.visibilit-2', {
-    duration: 1000, 
+revel.reveal('.visibilit-2', { 
+    scale: 0,
     delay: 200
 })
 
 revel.reveal('.visibilit-3', {
-    duration: 1000, 
+    scale: 0,
     delay: 300
 })
 
 revel.reveal('.visibilit-4', {
-    duration: 1000, 
+    scale: 0,
     delay: 400
 })
 
 revel.reveal('.visibilit-5', {
-    duration: 1000, 
+    scale: 0,
     delay: 600
 })
 
 revel.reveal('.visibilit-6', {
-    duration: 1000, 
+    scale: 0,
     delay: 800
 })
 

@@ -70,6 +70,8 @@ section {
     min-width: 420px;
     padding: 30px 10%;
     border-radius: 10px;
+
+    visibility: hidden;
 }
 
 section h2 {

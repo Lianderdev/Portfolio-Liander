@@ -54,7 +54,7 @@ header .perfil .info-content h2 {
 }
 
 /*Responsividade*/
-@media screen and (max-width: 1140px) {
+@media screen and (max-width: 1175px) {
     .menu-nav li {
         display: none;
     }
@@ -82,7 +82,7 @@ header .perfil .info-content h2 {
 
 @media screen and (max-width: 500px) {
     header {
-        padding-top: 60px;
+        padding-top: 100px;
     }
     .fa-solid.fa-bars {
         position: absolute;
