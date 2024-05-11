@@ -1,4 +1,6 @@
-window.revel = ScrollReveal({reset: true})
+
+
+/* window.revel = ScrollReveal({reset: true})
 
 revel.reveal('header', {
     duration: 1000, 
@@ -74,3 +76,4 @@ revel.reveal('.visibilit-6', {
     delay: 800
 })
 
+*/

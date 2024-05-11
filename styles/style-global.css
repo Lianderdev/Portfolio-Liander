@@ -20,11 +20,11 @@
 }
 
 :root {
-    --color-primary: #050219;
-    --color-secundary: #09061d;
+    --color-primary: #030305;
+    --color-secundary: #030305;
     --text-color: #f1f1f1;
     --text-gray: #504a4a;
-    --style-box: #1c1737;
+    --style-box: #05051a;
     --style-pink: #ff003b;
 }
 
@@ -60,7 +60,7 @@ button {
     font-weight: 600;
     text-transform: uppercase;
     color: #040213;
-    z-index: 2;
+    z-index: 1;
 }
 
 /*-----------------------------------------------*/
@@ -70,8 +70,6 @@ section {
     min-width: 420px;
     padding: 30px 10%;
     border-radius: 10px;
-
-    visibility: hidden;
 }
 
 section h2 {
@@ -82,18 +80,7 @@ section h2 {
 
     padding-bottom: 20px;
     position: relative;
-}
 
-section h2::before {
-    content: '';
-    display: block;
-    width: 3px;
-    height: 15px;
-    border-radius: 2px;
-    position: absolute;
-    background-color: #5e68ff;
-    top: 4px;
-    left: -10px;
 }
 
 /*-----------*/
@@ -184,7 +171,6 @@ section h2::before {
 }
 
 .botao::before {
-    border-radius: 7px;
     position: absolute;
     content: "";
     top: 10;
@@ -192,38 +178,23 @@ section h2::before {
     width: 3px;
     height: 40px;
     background: #ff003b;
+    border-radius: 20px;
 }
-  
-  
-.botao-curriculo:after{
-    border-radius: 10px;
-    position: absolute;
-    content: "";
-    top: 0;
-    left: 0px;
-    width: 0;
-    height: 100%;
-    background: #ff003b;
-    transition: all .35s;
-  }
   
 .botao:hover {
     color: #fff;
 }
-  
-.botao-curriculo:hover:after {
-    width: 100%;
-}
-
 
 
 /*--------------*/
 /*Menu navegação*/
 /*--------------*/
+nav {
+    z-index: 100;
+}
 .menu-nav {
     display: flex;
     gap: 30px;
-    z-index: 3;
 }
 
 .menu-nav li {
@@ -232,7 +203,7 @@ section h2::before {
 
 
 .menu-nav li a {
-    font-size: 1.3rem;
+    font-size: 1.7rem;
 }
 
 .menu-nav li a::after {

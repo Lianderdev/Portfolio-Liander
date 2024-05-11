@@ -7,13 +7,14 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <script src="https://unpkg.com/scrollreveal"></script>
     <link rel="shortcut icon" href="imgs/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="styles/components/teste.css">
     <title>Portfólio Liander</title>
 </head>
 <body>
     <!--Cabeçalho-->
     <header>
         <div class="perfil">
-            <img src="imgs/img-liander.png" alt="">
+            <img src="imgs/127912394.jpeg" alt="">
             <div class="info-content">
                 <h1>Liander Souza</h1>
                 <h2>Desenvolvedor Front-End</h2>
@@ -26,13 +27,15 @@
             </div>
         </div>
 
-        <ul class="menu-nav">
-            <li><a href="#stack">Tecnologias</a></li>
-            <li><a href="#projects">Projetos</a></li>
-            <li><a href="#about">Sobre mim</a></li>
-            <li><a href="#contact">Contato</a></li>
-            <i class="fa-solid fa-bars"></i>
-        </ul>
+        <nav>
+            <ul class="menu-nav">
+                <li><a href="#stack">stacks</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fa-solid fa-bars"></i>
+            </ul>
+        </nav>
 
         <p class="palavra-fundo">Front-End</p>
 
@@ -41,7 +44,7 @@
     <main>
         <!--Stack-->
         <section id="stack">
-            <h2 class="title-sections">Tecnologias</h2>
+            <h2 class="title-sections">Stack</h2>
                 <ul class="stack-content">
                     <li class="visibilit-1"> <img src="imgs/html.svg" alt="logo do html"> <span>html</span></li> 
                     <li class="visibilit-2"> <img src="imgs/css.svg" alt="logo do css"> <span>css</span></li> 
@@ -54,22 +57,28 @@
 
         <!--Projects-->
         <section id="projects">
-            <h2 class="title-sections">Projetos</h2>
+            <h2 class="title-sections">Projects</h2>
+
+            <ul class="projects-content">
+                <li class="project"></li>
+                <li class="project"></li>
+                <li class="project"></li>
+            </ul>
         </section>
 
         <!--About me-->
         <section class="about-education">
             <section id="about">
-                <h2 class="title-sections">Sobre mim</h2>
+                <h2 class="title-sections">About</h2>
                 <div class="about-content">
                     <p>
-                        Em 2019, iniciei minha jornada tecnológica no ensino médio técnico integrado em Informática no IFPA, concluindo em 2021. Durante esse período, meu interesse pela programação, especialmente na criação de sites dinâmicos, floresceu. Atualmente, no 5º semestre da faculdade em Ciência da Computação no mesmo instituto, continuo buscando aprimorar minhas habilidades como desenvolvedor Front-end por meio de um compromisso constante com o aprendizado.</p>
+                        Em 2019, iniciei minha jornada tecnológica no ensino médio técnico integrado em Informática no IFPA, concluindo em 2021. Durante esse período, meu interesse pela programação, especialmente na criação de <strong>sites dinâmicos</strong>. Atualmente, no 5º semestre da faculdade em Ciência da Computação no mesmo instituto, continuo buscando aprimorar minhas habilidades como <strong>desenvolvedor Front-end</strong> por meio de um compromisso constante com o aprendizado.</p>
                     
                 </div>
             </section>
 
             <section id="education">
-                <h2 class="title-sections">Educação</h2>
+                <h2 class="title-sections">Education</h2>
                 <div class="formacoes-content">
 
                     <div class="formacao">
@@ -93,7 +102,7 @@
 
         <!--Contacts-->
         <section id="contact">
-            <h2 class="title-sections">Contato</h2>
+            <h2 class="title-sections">Contact</h2>
             <div class="contact-content">
                 <div class="img-contact">
                     <img  src="imgs/img-contact.png" alt="">
@@ -101,7 +110,7 @@
 
                 <div class="formulario">
                     <div class="title-contact">
-                      <h3>Vamos trabalhar juntos!</h3>
+                      <h3>Vamos trabalhar juntos?</h3>
                       <i class="fa-solid fa-arrow-down"></i>
                     </div>
                     <form action="https://api.staticforms.xyz/submit" method="post">
@@ -134,7 +143,7 @@
                         <button type="submit" class="botao botao-contact"><span>Enviar</span><i class="fa-solid fa-arrow-trend-up"></i></button>
 
                         <input type="hidden" name="accessKey" value="18de0799-6c30-4ad0-92b0-dc1e456837d2">
-                        <input type="hidden" name="redirectTo" value="https://index.html">
+                        <input type="hidden" name="redirectTo" value="https://">
                     </form>
                 </div>  
             </div>

@@ -1,5 +1,18 @@
 #projects {
-    height: 300px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
 
-    background-color: var(--color-secundary);
+.projects-content {
+    width: 100%;
+    display: grid;
+    grid-gap: 25px 25px;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+
+.projects-content .project {
+    height: 250px;
+    border-radius: 10px;
+    background-color: var(--style-box);
 }
