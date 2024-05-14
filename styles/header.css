@@ -48,21 +48,12 @@ header .perfil .info-content h2 {
     color: var( --style-pink);
 }
 
-.fa-solid.fa-bars {
+.button-menu-mobile {
     display: none;
     font-size: 40px;
 }
 
 /*Responsividade*/
-@media screen and (max-width: 1175px) {
-    .menu-nav li {
-        display: none;
-    }
-
-    .fa-solid.fa-bars {
-        display: block;
-    }
-}
 
 @media screen and (max-width: 800px) {
     header {
